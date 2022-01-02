@@ -1,6 +1,3 @@
-module.exports = {
-  plugins: [
-    'gatsby-plugin-postcss',
-    // ...
-  ],
-}
+module.exports = ({ contentPath = 'content', basePath = '/' }) => ({
+  plugins: [`gatsby-plugin-postcss`],
+})
